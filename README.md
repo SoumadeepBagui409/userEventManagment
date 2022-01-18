@@ -115,4 +115,17 @@ This will help to send the data of user and stored in DB for every unique email
   POST /addEvents
 ```
 
-This will help use too store event against the user ID
+This will help user to store event against the user ID
+
+
+
+#Postman requests
+
+![postman1](https://user-images.githubusercontent.com/75625374/149886990-883f9ef7-f8df-4059-9e32-88ede6fa0a15.jpeg)
+![postman2](https://user-images.githubusercontent.com/75625374/149887015-3de6cb5e-28e5-4b03-bdd9-be223b576e92.jpeg)
+![postman3](https://user-images.githubusercontent.com/75625374/149887045-0412b170-5733-4826-949a-04157b41a1fa.jpeg)
+![postman4](https://user-images.githubusercontent.com/75625374/149887056-56e0df35-3949-45e1-8a9b-db85023d079d.jpeg)
+![postman5](https://user-images.githubusercontent.com/75625374/149887066-027784c4-82b5-4d19-ae01-e9f37135cc39.jpeg)
+
+
+
