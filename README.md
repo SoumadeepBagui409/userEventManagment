@@ -6,7 +6,7 @@ This is User-Event managment
 
 # TechStack
 
-mongoDB is used for Database
+mongoDB is used for Database {eventSet in this project but can be changed }
 
 Express is used for Server
 
