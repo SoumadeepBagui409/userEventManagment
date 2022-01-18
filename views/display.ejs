@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>User</title>
+</head>
+<body>
+        <div class="display">
+            <form action="/addUser" method="post">
+                <nav>
+                    <a href="/">Users</a>
+                    <a href="/events">Events</a>
+                    <a href="/showEvents">Show events</a>
+                </nav>
+                <br>
+                <fieldset>
+                    <legend>User Info</legend>
+                <label for="username">User:</label>
+                <input type="text" id="username" name="username" required>
+                <br>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <br>
+                <label for="gender">Gender:</label>
+                <select name="gender" id="gender" required>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+                
+                </fieldset>
+                <br>
+                <button type="submit">ok</button>
+            </form>
+        </div>
+</body>
+</html>

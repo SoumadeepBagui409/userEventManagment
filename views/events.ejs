@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Event</title>
+</head>
+<body>
+    
+    <div class="display">
+        <nav>
+            <a href="/">Users</a>
+            <a href="/events">Events</a>
+            <a href="/showEvents">Show events</a>
+        </nav>
+        <br>
+            <form action="/addEvents" method="post">
+                <fieldset>
+                    <legend>Events</legend>
+                <label for="id">Your Unique User Id:</label>
+                <input type="text" id ="id" name="id" required>
+                <br>
+                <br>
+                <label for="eventName">Event Name</label>
+                <input type="text" id = "eventName" name="eventName" requires>
+                <br>
+                <br>
+                <label for="occurence">Occurence</label>
+                <select name="occurence" id="occurence" required> 
+                    <option value="WEEKLY">WEEKLY</option>
+                    <option value="MONTLHY">MONTHLY</option>
+                    <option value="YEARLY">YEARLY</option>
+                    <option value="ONETIME">ONETIME</option>
+                </select>
+                <br>
+                <br>
+                <label for="startDate"> Start Date:</label>
+                <input type="date" id="startDate" name="startDate" required>
+                <br>
+                <br>
+                <fieldset>
+                    <label for="endDate">End Date</label>
+                    <input type="date" id="endDate" name="endDate">
+                    <h1>OR</h1>
+                    <input type="checkbox" id="endDate" name="endDate" value="ongoing">
+                    <br>
+    
+                    <label for="endDate">Ongoing</label>
+                </fieldset>
+              
+        </fieldset>
+        <br>
+            <button type="submit">ok</button>
+        </form>
+    </div>
+    
+</body>
+</html>
